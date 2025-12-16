@@ -1,23 +1,24 @@
 .hero h1 {
   margin-block-start: 0;
   margin-block-end: 0;
+  margin-bottom: 150px;
 }
 .hero {
   box-sizing: border-box;
   /* Full screen hero section */
   width: 100%;
   min-height: 100dvh;
-  background: #0033a0;
-  color: white;
+  background: #000000;
+  color: #590992;
   font-family: Futura;
   font-weight: bold;
   font-size: 30px;
   text-align: center;
 }
 .hero a {
-  color: white;
-  text-decoration: underline;
-  text-decoration-color: #c6093b;
+  color: rgb(73, 78, 227);
+  text-decoration:underline;
+  text-decoration-color: #011e91;
 }
 
 /* A little "activation" to demonstrate JS is working in the template */

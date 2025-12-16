@@ -3,24 +3,28 @@
 html {
   /* Make #id links scroll smoothly */
   scroll-behavior: smooth;
+  /* image is in project root, so reference it relative to this CSS file */
+  background-image: url("../galaxy.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 body {
   /* Change to something you like, but please do customize the font! */
   font-family: Roboto, "Helvetica Neue", sans-serif;
   line-height: 1.4;
-  /* reset default margins */
+  /* reset default margins*/
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   /* Customize colors! */
-  background: #f0f0f0;
-  color: #333;
+  color:rgb(42, 108, 231);
 }
 h2 {
-  color: #0033a0;
+  color: rgb(112, 69, 173);
   text-decoration: underline;
-  text-decoration-color: #c6093b;
+  text-decoration-color: rgb(74, 26, 142);
   margin-bottom: 8px;
 }
 p {
