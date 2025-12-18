@@ -8,7 +8,10 @@
   /* Full screen hero section */
   width: 100%;
   min-height: 100dvh;
-  background: #000000;
+  background-image: url("../galaxy.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   color: #590992;
   font-family: Futura;
   font-weight: bold;
