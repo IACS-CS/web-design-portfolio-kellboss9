@@ -4,7 +4,7 @@ html {
   /* Make #id links scroll smoothly */
   scroll-behavior: smooth;
   /* image is in project root, so reference it relative to this CSS file */
-  background-image: url("../snowy.png");
+  background-image: url("../smoke.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -27,6 +27,11 @@ h2 {
   text-decoration-color: rgb(74, 26, 142);
   margin-bottom: 8px;
 }
+
+h2:hover {
+  text-shadow: 1px 2px 1px rgb(236, 152, 250);
+}
+
 p {
   margin-top: 0;
 }
@@ -41,5 +46,19 @@ main {
 }
 
 main:hover p {
-  text-shadow: 1px 1px 1px rgb(169, 86, 186);
+  text-shadow: 1px 1px 1px rgb(246, 146, 236);
+}
+
+.text-color-alt {
+  color: red; /* change to any color you want */
+}
+
+.colorbutton {
+  display: block;
+  margin: 1rem auto;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  color:rgb(0, 1, 4);
+  border-radius: 9px;
+  background-color: rgb(231, 205, 245);
 }

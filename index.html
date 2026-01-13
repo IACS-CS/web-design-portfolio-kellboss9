@@ -4,16 +4,18 @@
     <title>Example Student's Portfolio</title>
     <link rel="stylesheet" href="./style/hero.css" />
     <link rel="stylesheet" href="./style/main.css" />
+    <link rel="stylesheet" href="./style/extra.css" />
   </head>
   <body>
     <!-- Demo content -->
     <section class="hero">
       <h1>Kellens's Portfolio</h1>
-      <button id="intro-audio">Paragraph 4</button>
+      <button class="intro-audio">Paragraph 4</button>
       <a href="#about-me">Embrace in my genius</a>
     </section>
     <main>
       <section class="info" id="about-me">
+        <button class="colorbutton" onclick="cycleColor()">color change?</button>
         <div class="about-me">
           <h2>About Me</h2>
           <p>
@@ -63,6 +65,9 @@
           you can list tasks AI helped you with, and you should also include
           notes <em>in your source code</em> describing any AI-generated code.
         </p>
+      </section>
+      <section class="extra">
+        <p>hello there</p>
       </section>
     </main>
   </body>

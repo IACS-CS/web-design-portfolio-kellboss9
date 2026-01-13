@@ -18,10 +18,18 @@
   font-size: 30px;
   text-align: center;
 }
+/* This CSS was generated with help fromGithub Copilot to stack the hero button above its link - 01/08/26 */
 .hero a {
   color: rgb(73, 78, 227);
-  text-decoration:underline;
+  text-decoration: underline;
   text-decoration-color: #011e91;
+}
+.hero button,
+.hero a {
+  /* Stack the button and the link vertically and center them */
+  display: block;
+  margin: 0.5rem auto;
+  font-size: 1rem;
 }
 
 /* A little "activation" to demonstrate JS is working in the template */
@@ -46,4 +54,13 @@
   .hero {
     font-size: 75px;
   }
+}
+
+.intro-audio {
+  display: block;
+  margin: 1rem auto;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  color: darkblue;
+  border-radius: 9px;
 }
