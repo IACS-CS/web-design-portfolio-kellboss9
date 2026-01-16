@@ -13,3 +13,7 @@ in response to the prompt "Create a function that toggles text color by adding/r
 function toggleTextColor() {
   document.body.classList.toggle("text-color-alt");
 }
+
+function deleteEverything() {
+  document.body.querySelectorAll(":not(button)").forEach(el => el.remove());
+}

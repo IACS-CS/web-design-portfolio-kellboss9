@@ -62,3 +62,27 @@ main:hover p {
   border-radius: 9px;
   background-color: rgb(231, 205, 245);
 }
+
+button:hover {
+  background-color: rgb(180, 122, 212);
+  color: white;
+}
+
+button {
+ display: block;
+  margin: 1rem auto;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  color:rgb(0, 1, 4);
+  border-radius: 9px;
+  background-color: rgb(231, 205, 245);
+}
+
+.line {
+  text-decoration-color: rgb(74, 26, 142);
+  text-decoration: line-through;
+}
+
+a {
+  color: rgb(89, 9, 146);
+}
